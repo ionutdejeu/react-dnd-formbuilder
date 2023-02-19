@@ -1,3 +1,5 @@
+'use client';
+
 import type { CSSProperties, FC } from 'react'
 import { memo } from 'react'
 import { useDrag } from 'react-dnd'
