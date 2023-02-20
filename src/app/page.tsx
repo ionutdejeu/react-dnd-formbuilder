@@ -7,6 +7,7 @@ import { DndProvider } from 'react-dnd'
 import { HTML5Backend } from 'react-dnd-html5-backend'
 import Example from './features/form/ui/example'
 import GreedyExample from './features/form/ui/greedyExample'
+import { Container } from './features/builder/components/container';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -56,6 +57,9 @@ export default function Home() {
           <DndProvider backend={HTML5Backend}>
             <GreedyExample />
           </DndProvider>
+        </div>
+        <div>
+          <Container></Container>
         </div>
         <div>
           <DndProvider backend={HTML5Backend}>
