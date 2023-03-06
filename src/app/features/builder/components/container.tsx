@@ -68,7 +68,7 @@ export const Container = () => {
 
     return (
         <div className="HomePage">
-            <DndProvider backend={HTML5Backend}>
+            
                 <div style={{ overflow: 'hidden', clear: 'both' }}>
                     {fields.map((item, index) => {
                         return (<div key={index}>{index}</div>)
@@ -86,7 +86,7 @@ export const Container = () => {
                         />
                     ))}
                 </div>
-            </DndProvider>
+           
         </div>
     );
 };

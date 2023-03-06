@@ -59,7 +59,9 @@ export default function Home() {
           </DndProvider>
         </div>
         <div>
-          <Container></Container>
+          <DndProvider backend={HTML5Backend}>
+            <Container></Container>
+          </DndProvider>
         </div>
         <div>
           <DndProvider backend={HTML5Backend}>
