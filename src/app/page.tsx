@@ -8,6 +8,7 @@ import { HTML5Backend } from 'react-dnd-html5-backend'
 import Example from './features/form/ui/example'
 import GreedyExample from './features/form/ui/greedyExample'
 import { Container } from './features/builder/components/container';
+import { FromDnd } from './features/form_dnd/from_dnd';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -69,6 +70,7 @@ export default function Home() {
           </DndProvider>
         </div>
       </div>
+      <FromDnd></FromDnd>
     </main>
   )
 }

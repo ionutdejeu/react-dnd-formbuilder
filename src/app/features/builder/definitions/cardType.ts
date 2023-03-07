@@ -3,4 +3,4 @@ export const CardType = {
     CARD2: 'CARD2',
     CARD3: 'CARD3',
     CARD4: 'CARD4',
-}  
+}
